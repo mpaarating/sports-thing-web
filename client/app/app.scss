@@ -1,0 +1,24 @@
+//
+// Global
+// --------------------------------------------------
+
+@import './assets/stylesheets/global/variables';
+@import './assets/stylesheets/global/functions';
+@import './assets/stylesheets/global/mixins';
+@import './assets/stylesheets/global/extends';
+
+//
+// Base
+// --------------------------------------------------
+
+@import './assets/stylesheets/base/bootstrap';
+@import 'node_modules/font-awesome/scss/font-awesome';
+@import './assets/stylesheets/base/layout';
+
+//
+// Components
+// --------------------------------------------------
+
+//
+// Vendor
+// --------------------------------------------------
