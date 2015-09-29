@@ -19,11 +19,11 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "gulp pre-push",
+      "pre-push": "cd client/ && gulp pre-push",
       "commit-msg": "node ./validate-commit-msg $1"
     }
   },
-  "homepage": "https://github.com/paradox41/app-template",
+  "homepage": "https://github.com/mpaarating/sports-thing",
   "devDependencies": {
     "aliasify": "^1.7.2",
     "angular-mocks": "^1.3.16",
