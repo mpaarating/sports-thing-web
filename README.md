@@ -25,12 +25,13 @@ Clone the repo or download the zip file. If you cloned, `rm -rf .git`
 
 1. `npm install`
 
-### For client
+#### For client
 
 1. `cd client/`
 2. `gulp`
 
-### For API
+#### For API
+
 1. `cd api/`
 2. `node server.js`
 
