@@ -1,25 +1,38 @@
-# Angular Boilerplate
+# Sports Thing
+## A statistical tool
 
 [![Tag](https://img.shields.io/github/tag/mpaarating/sports-thing.svg?style=flat)](https://github.com/mpaarating/sports-thing)
 
 ## Summary
 
-Angular 1.x starter kit featuring:
-- [Angular](https://angularjs.org/)
+Frontend consisting of:
+- [Angular](https://angularjs.org/) Using paradox41's excellent [angular template](https://github.com/paradox41/app-template)
 - [Bootstrap](http://getbootstrap.com/)
 - [Gulp](http://gulpjs.com/)
 - [Browserify](http://browserify.org/)
 - [Karma](https://karma-runner.github.io/)
 - [Mocha](http://mochajs.org/)
 - [Chai](http://chaijs.com/)
-- [Conventional Changelog](https://github.com/ajoslin/conventional-changelog)
+
+Backend consisting of:
+ - [Express](http://expressjs.com/)
+ - [Mongodb](https://www.mongodb.org/)
+ - [Conventional Changelog](https://github.com/ajoslin/conventional-changelog)
 
 ## Usage
 
 Clone the repo or download the zip file. If you cloned, `rm -rf .git`
 
 1. `npm install`
-3. `gulp`
+
+### For client
+
+1. `cd client/`
+2. `gulp`
+
+### For API
+1. `cd api/`
+2. `node server.js`
 
 ## Build
 
@@ -27,7 +40,7 @@ Clone the repo or download the zip file. If you cloned, `rm -rf .git`
 
 ## Style
 
-### JavaScript
+### Client JavaScript
 - Each module should be totally self-contained. Any functionality shared across modules should be moved into `common/`.
 - Modules can have their own directives, services, filters, etc. If multiple files are needed in order to maintain file size,
 a folder should be created (`directives/`, `services/`, etc) and the broken up files should be placed into their respective folders
